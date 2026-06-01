@@ -1,0 +1,18 @@
+//Beecrowd - 1006
+#include <stdio.h>
+ 
+int main() {
+    double a;
+    scanf("%lf", &a);
+    double b;
+    scanf("%lf", &b);
+    double c;
+    scanf("%lf", &c);
+    
+    double media;
+    media = (a*2 + b*3 + c*5)/10;
+    
+    printf("MEDIA = %lf\n", media);
+ 
+    return 0;
+}
