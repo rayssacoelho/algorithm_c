@@ -1,0 +1,17 @@
+//Beecrowd - 1008
+#include <stdio.h>
+ 
+int main() {
+ 
+    int number;
+    scanf("%d", &number);
+    int work;
+    scanf("%d", &work);
+    float hour;
+    scanf("%f", &hour);
+   
+    float salary = work * hour;
+    printf("NUMBER = %d\n", number);
+    printf("SALARY = U$ %.2f\n", salary);
+    return 0;
+}
